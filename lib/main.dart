@@ -53,10 +53,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(250, 247, 235, 255),
-      /*appBar: AppBar(
-          centerTitle: true,
-          title: Text(widget.title),
-          backgroundColor: Colors.deepPurple),*/
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
